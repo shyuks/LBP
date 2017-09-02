@@ -1,0 +1,150 @@
+
+/* Body */
+body {
+    background-color: white;
+    overflow-x: hidden;
+    font-family: Montserrat;
+    width: 100%;
+    height: auto 100%;
+    margin: auto 0;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+header .search-menu {
+    text-align: right;
+    font-size: 20px;
+}
+header .search-menu i {
+    color: black;
+}
+header .ED {
+    color: #7ca9d8;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: Montserrat;
+    letter-spacing: 0.5px;
+}
+header .ED-desc {
+    font-weight: 600;
+}
+header .ED-pedia {
+    font-weight: 0;
+    font-size: 18px;
+}
+
+
+
+
+/* Video Main */
+#video {
+    background-color: black;
+}
+#video .video-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+#video .video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* video nav bar */
+#nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+#nav .col-xs-2 p {
+    display: inline-block;
+}
+#nav .col-xs-3 p {
+    display: inline-block;
+}
+#nav .social-media {
+    float: right;
+}
+#nav .social-media p {
+    font-size: 18px;
+}
+#nav .social-media i {
+    font-size: 18px;
+}
+
+/* side-bar */
+#sidebar {
+    position: absolute;
+}
+#sidebar .col-xs-3 {
+    float: right;
+}
+
+
+/* about */
+#about {
+    background-color: white;
+}
+#about .col-xs-7 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+#about .transcript {
+    border: 1px solid black;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+#about .col-xs-7 h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* Doctor About */
+#doctor-about .col-xs-7 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+
+/* Tags */
+#tags .col-xs-7 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* Footer */
+#footer {
+    background-color: #9AC6EA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer h4 {
+    font-weight: 500;
+}
+#footer p {
+    margin: 0 !important;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#footer i {
+    font-size: 18px;
+}

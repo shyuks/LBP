@@ -1,0 +1,102 @@
+
+/* DROP DOWN MENU */
+#main-menu {
+    display: none;
+}
+#main-menu .container {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #494548;
+}
+#main-menu .container .row {
+    background-color: #494548 !important;
+    padding-bottom: 10px;
+}
+#main-menu .menu-left {
+    text-align: left;
+    line-height: 20px;
+}
+#main-menu .menu-left div {
+    font-size: 14px;
+    padding: 12px 0px;
+    border-bottom: 1px solid gray;
+}
+#main-menu .menu-left div a {
+    color: white;
+}
+#main-menu .menu-left span {
+    padding: 30px;
+}
+#main-menu .menu-left span p {
+    font-size: 14px;
+    margin: 0;
+}
+#main-menu .menu-left span h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+#main-menu .menu-left span p a {
+    font-size: 14px;
+    color: white;
+}
+#main-menu .menu-left p {
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+#main-menu .col-md-3 {
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+}
+#main-menu .col-md-3 img {
+    width: 100%;
+    padding: 10px 0px;
+}
+#main-menu .col-md-3 form input {
+    position: relative;
+    width: 200px;
+    color: black;
+}
+#main-menu .col-md-3 form button {
+    font-size: 14px;
+    position: absolute;
+    float: right;
+    height: 26px;
+    border-radius: initial;
+    padding: 2px 10px;
+    background-color: #2ED2F7;
+}
+#main-menu .col-md-3 i {
+    font-size: 24px;
+    padding-right: 5px;
+    color: white;
+}
+#main-menu .col-md-3 div p {
+    padding: 8px 0px;
+}
+
+@media screen and (max-width: 991px) {
+
+    #main-menu .col-md-3 h4 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    #main-menu .col-md-3 img {
+        width: 200px !important;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,582 @@
+npm/*
+
+Page A CSS
+
+*/
+
+html {
+    overflow-x: hidden;
+}
+
+/* Body */
+body {
+    padding: 0 !important;
+    background-color: grey;
+    overflow-x: hidden;
+    font-family: Montserrat;
+    width: 100%;
+    height: auto 100%;
+    margin: auto 0;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.top-nav {
+    position: fixed;
+    z-index: 101;
+    width: 100%;
+}
+
+/* Header */
+header {
+    z-index: 101;
+    width: 100%;
+    top: 0;
+    background-color: #DAE8F2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+header .search-menu {
+    text-align: right;
+    font-size: 20px;
+}
+header .search-menu i {
+    color: black;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header .ED {
+    color: #7ca9d8;
+    font-size: 19px;
+    font-weight: 900;
+    font-family: Montserrat;
+    letter-spacing: 0.5px;
+}
+header .ED-desc {
+    font-weight: 600;
+}
+header .ED-pedia {
+    font-weight: 0;
+    font-size: 18px;
+}
+
+/* Landing Section */
+#landing {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.landing-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* break-point-1 */
+#break-point-1 {
+    text-align: center;
+    background-color: white;
+}
+#break-point-1 .break-point-title-1 {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    display: inline-block;
+}
+#break-point-1 i {
+    display: inline-block;
+}
+
+/* Resources */
+#resources {
+    background-color: #CAE4F9;
+}
+#resources .row .col-xs-4 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+#resources p {
+    padding-top: 10px;
+}
+#resources a {
+    text-decoration: none;
+    color: black;
+}
+#resources .col-xs-2:hover {
+    z-index: 100 !important;
+}
+#resources .col-xs-4:hover {
+    z-index: 100 !important;
+}
+#resources .one {
+    background-color: #CAE4F9 !important;
+    min-height: 250px;
+}
+#resources .two {
+    background-color: #B6DBF9 !important;
+    min-height: 250px;
+}
+#resources .three {
+    background-color: #A4D3F9 !important;
+    min-height: 250px;
+}
+#resources .four {
+    background-color: #93CBF9 !important;
+    min-height: 250px;
+}
+#resources .five {
+    background-color: #81C3F9 !important;
+    min-height: 250px;
+}
+#resources .six {
+    background-color: #93CBF9 !important;
+    min-height: 250px;
+    /*background-color: #72BDF9;*/
+}
+
+/* Resources Hover */
+#resources .resource-static {
+}
+#resources .resources-on-hover:hover {
+    min-height: 275px !important;
+    max-height: 275px !important;
+}
+#resources .resource-on-hover p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Featured */
+#featured {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#featured .col-xs-8 h3 {
+    display: inline-block;
+}
+
+#featured .col-xs-8 span {
+    display: inline-block;
+    color: #43E1F9;
+    font-size: 24px;
+}
+
+/* Break Point 2 */
+#break-point-2 {
+    background:
+        linear-gradient(
+            to left,
+            white,
+            rgba(255, 255, 255, 0.2)),
+        url("../img/ed_healthtips1_s.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#break-point-2 p {
+    font-size: 12px;
+}
+
+/* Break Point 3 */
+#break-point-3 {
+    background:
+        linear-gradient(
+            to right,
+            white,
+            rgba(255, 255, 255, 0.2)),
+        url("../img/ed_healthtips2_s.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#break-point-3 p {
+    font-size: 12px;
+}
+
+
+
+/* Videos */
+#videos {
+    background-color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+#videos h3 {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#videos p {
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+    min-height: 50px;
+}
+#videos .video-border {
+    width: 33%;
+    display: inline-block;
+    background: lightgray;
+    vertical-align: top;
+}
+#videos .video-carousel {
+    padding-top: 50px;
+}
+#videos .carousel-control {
+    width: 10%;
+}
+#videos .carousel-control span {
+    display: inline-block;
+    font-size: 24px;
+}
+#videos .carousel-control.left {
+    background-image: none !important;
+}
+#videos .carousel-control.right {
+    background-image: none !important;
+}
+#videos .carousel-indicators {
+    visibility: hidden;
+}
+
+/* How */
+#how {
+    background-color: #AED8F9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#how .how-title {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#how .how-title h4 {
+    font-weight: bold;
+}
+#how .how-content-one {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#how .how-content-two {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#how .how-body p {
+    font-size: 12px;
+    text-align: left;
+}
+
+/* community */
+#community {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#community .col-xs-8 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#community .col-xs-8 h3 {
+    display: inline-block;
+}
+#community .col-xs-8 span {
+    display: inline-block;
+    color: #43E1F9;
+    font-size: 24px;
+}
+#community .forum .box {
+    background-color: #EAEAEA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#community a p {
+    text-decoration: none;
+    color: #6DBFF2;
+    padding-right: 0px !important;
+    display: inline-block;
+}
+#community a i {
+    text-decoration: none;
+    color: #6DBFF2;
+    display: inline-block;
+}
+#community .forum .odd {
+    padding-bottom: 10px !important;
+    background-color: #EAEAEA;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#community .forum h4 {
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#community .forum p {
+    font-size: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#community .box:hover {
+    background-color: #81C3F9;
+}
+#community .box:hover a p {
+    color:white;
+}
+#community .box:hover a i {
+    color:white;
+}
+#community .author {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+/* email subscription */
+#email-subscription {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+#email-subscription .email-box {
+    height: 200px;
+    width: 100%;
+}
+#email-subscription .email-img {
+    background-image: url('../img/email_subscribe.png');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 36%;
+    position: absolute;
+}
+#email-subscription .email-form {
+    float: right;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 100%;
+    background-color: #847F81;
+    width: 64%;
+}
+#email-subscription .email-form h3 {
+    padding: 30px 20px 0px 20px;
+    font-size: 26px;
+}
+#email-subscription .email-form p {
+    padding: 0px 20px;
+}
+#email-subscription .email-form #Footer-Email {
+    color: #313131;
+    border-radius: 25px;
+    width: 50%;
+    height: 30px;
+    display: inline-block;
+    margin-right: -22px;
+}
+#email-subscription .email-form #Footer-Submit {
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
+}
+
+/* Footer */
+#footer {
+    background-color: #9AC6EA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer h4 {
+    font-weight: 500;
+}
+#footer p {
+    margin: 0 !important;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#footer i {
+    font-size: 18px;
+}
+
+
+
+
+
+/* Responsive*/
+
+
+@media screen and (max-width: 580px) {
+
+    #break-point-2 {
+        background:
+        linear-gradient(
+            to left,
+            white,
+            rgba(255, 255, 255, 0.7)),
+        url("../img/ed_healthtips1_s.jpg") no-repeat center;
+    background-size: cover;
+    }
+    #break-point-2 .col-xs-6 {
+        width: 10% !important;
+    }
+    #break-point-2 .col-xs-4 {
+        width: 80% !important;
+    }
+    #break-point-2 .col-xs-2 {
+        width: 10% !important;
+    }
+
+    #break-point-3 {
+        background:
+        linear-gradient(
+            to right,
+            white,
+            rgba(255, 255, 255, 0.7)),
+        url("../img/ed_healthtips2_s.jpg") no-repeat center;
+    background-size: cover;
+    }
+    #break-point-3 .col-xs-2 {
+        width: 10% !important;
+    }
+    #break-point-3 .col-xs-4 {
+        width: 80% !important;
+    }
+    #break-point-3 .col-xs-6 {
+        width: 10% !important;
+    }
+
+    #email-subscription .email-form h3 {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (max-width: 682px) {
+
+    #email-subscription .email-form h3 {
+        margin-top: 10px;
+    }
+    #email-subscription .email-form p {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    #email-subscription #footer-email-form {
+        padding-left: 0px !important;
+    }
+    #email-subscription #Footer-Email {
+        margin-right: 0px !important;
+        width: 80% !important;
+    }
+    #email-subscription #Footer-Submit {
+        margin-top: 5px !important;
+    }
+    #email-subscription .email-form h3 {
+        font-size: 22px;
+    }
+    #email-subscription .email-form p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 946px) {
+
+    #videos .video-border {
+        display: inline-block;
+        width: 100%;
+        margin: 5px 0px;
+        background: none;
+        border: 2px solid lightgray;
+    }
+    #videos #video-one {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-two {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-three {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-four {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-five {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-six {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-seven {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-eight {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos #video-nine {
+        width: 50% !important;
+        float: left;
+        margin-right: 10px;
+    }
+    #videos .video-border p {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    header .Title {
+        display: inline-block !important;
+    }
+    header .ED-desc {
+        display: none;
+    }
+    header .search-menu {
+        float: right;
+        display: inline-block;
+    }
+    header .hr {
+        display: none;
+    }
+    #resources .col-xs-2:hover {
+        z-index: 100 !important;
+    }
+    #resources .col-xs-4:hover {
+        z-index: 100 !important;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+
+    #resources .col-xs-4:hover {
+    }
+
+    #resources .col-md-2:hover {
+    }
+}
