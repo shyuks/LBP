@@ -163,6 +163,14 @@ app.get('/terms-of-use', function(req, res) {
     res.sendFile(path.join(__dirname, './public/templates/terms_of_use.html'))
 })
 
+app.get('/not-found', function(req, res) {
+    res.sendFile(path.join(__dirname, './public/templates/non-existant.html'))
+})
+
+app.use(function(req, res) {
+    res.sendFile(path.join(__dirname, './public/templates/non-existant.html'))
+})
+
 app.listen(3000, function() {
     console.log('Listening On http://138.68.248.193:8080/');
 });
